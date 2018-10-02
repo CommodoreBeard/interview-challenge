@@ -1,4 +1,6 @@
 import org.junit.Test;
+import uk.co.gfk.Game;
+
 import static org.junit.Assert.*;
 
 public class GameTest {
