@@ -11,17 +11,17 @@ Given the wonder `WWSS` and resource cards `W/B/S/O, W, S/B, and S`, it is possi
 ## Goal
 Write software to determine if a list of available cards can be used to build a wonder.
 
-##Input
+## Input
 A comma-separated sequence of cards surrounded by square brackets, with the options separated by a slash.
 
-> A question phrased "Can you build <Wonder>?".
+> A question phrased "Can you build \<Wonder\>?".
 
-##Output
-> Yes <a sequence of options chosen for each card, _ if a card is not used>
+## Output
+> **Yes** \<a sequence of options chosen for each card, _ if a card is not used\>
 
-> No if the wonder cannot be built with the provided cards
+> **No** if the wonder cannot be built with the provided cards
 
-##Example Inputs and Outputs
+## Example Inputs and Outputs
 ```bash
 Cards [W/B/S/O, W, S/B, S] Can you build WWSS?
 Yes WWSS
@@ -47,7 +47,7 @@ Cards [W/B/S/O, S/O, W/S, W/B, W/B, W, B] Can you build WWBSSOO?
 No
 ```
 
-##Hints
+## Hints
 - write well modelled, production quality code accompanied by unit tests
 - input and output handling is nice to have:
     - inputs can be provided as constants
