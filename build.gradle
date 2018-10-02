@@ -1,0 +1,12 @@
+plugins {
+    id 'java-library'
+}
+sourceCompatibility = 1.8
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
