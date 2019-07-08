@@ -1,4 +1,4 @@
-package co.uk.gfk;
+package uk.co.gfk;
 
 import org.junit.Test;
 
